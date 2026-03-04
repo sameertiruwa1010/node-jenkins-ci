@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yourdockerhubusername/node-jenkins-ci"
+        DOCKER_IMAGE = "nyapu1010/node-jenkins-ci"
     }
 
     stages {
