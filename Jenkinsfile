@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://git@github.com:sameertiruwa1010/node-jenkins-ci.git'
+                git 'https://github.com/sameertiruwa1010/node-jenkins-ci.git'
             }
         }
 
